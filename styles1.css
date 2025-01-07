@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c51bae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #97a7c2;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(29, 27, 27, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+    align-content: center;
+  }
+  
+  /* Input and Button */
+  .todo-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  input[type="text"] {
+    width: 500%;
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #4823a4;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Task List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    background-color: #d4edda;
+  }
+  
+  li button {
+    background-color: #d9534f;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  li button:hover {
+    background-color: #c9302c;
+  }
+  
